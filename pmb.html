@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="image/logoMDP.png" alt="Banner web" width = 25%>
+    <table>
+        
+    </table>
+    <h3>Kampus Inovasi</h3>
+    <hr style="border: 1px solid black">
+    <tr>
+        <td><a href="index.html">Home</a> |</td>
+        <td><a href="profil.html">Profil</a> | </td>
+        <td><a href="pmb.html">PMB</a> | </td>
+        <td><a href="hubungi.html">Hubungi Kami</a></td>
+    </tr>
+    <hr style="border: 1px solid black">
+    <h2>Penerimaan Mahasiswa Baru</h2>
+    <table>
+        <tr>
+            <td><form action="proses.php" method="post">
+                Nama Lengkap <br>
+                <input type="text" name="nama" id="nama"
+                required> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin <br></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="jk" id="jkl" value="L" checked> Laki-laki <br></td>
+            <td><input type="radio" name="jk" id="jkp" value="P"> Perempuan <br></td>
+        </tr>
+        <tr>
+            <td>
+                <form action="proses.php" method="post">
+                    Nomor HP <br>
+                    <input type="text" name="nomorhp" id="nomorhp"
+                    required> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form action="proses.php" method="post">
+                    Email <br>
+                    <input type="text" name="email" id="email"
+                    required> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Alamat <br>
+                <textarea name="pesan" id="pesan"></textarea> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Pilihan Program Studi <br></td>
+        </tr>
+        <tr>
+            <td>
+                <select name="programstudi" id="programstudi">
+                <option value="SI">Sitem Informasi</option>
+                <option value="IF">Informatika</option>
+                <option value="AK">Akuntansi</option>
+                <option value="MJ">Manajemen</option>
+                <option value="TE">Teknik Elektro</option>
+                <option value="MI">Manajemen Informatika</option>
+                </select> <br>
+            </td>
+        </tr>
+        <tr>
+            <td><button type="submit">Daftar</button> <br></td>
+        </tr>
+        <tr>
+            <td>© 2025 Universitas MDP </td>
+        </tr>
+    </table>
+</body>
+</html>
